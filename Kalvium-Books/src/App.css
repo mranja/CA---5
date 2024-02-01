@@ -1,0 +1,257 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+}
+
+
+h1 {
+  color: #fff;
+}
+
+h1:hover{
+  color: rgb(202, 67, 67);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+p{
+  padding-left: 15px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+  margin-top: 20px;
+  padding: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+
+input[type="text"] {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+
+.BookList {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+
+.BookItem {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+
+.Header {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 15px 20px;
+}
+
+
+.Navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Navigation a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.Navigation a:hover {
+  color: #000;
+}
+
+
+.register-form-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 10px; 
+}
+
+
+input.error {
+  border-color: red;
+  margin-bottom: 10px; 
+}
+
+.submit-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+
+}
+
+.Form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchbar{
+  max-width: 700px;
+  
+  
+ 
+
+}
+
+.a{
+  padding-left: 15px;
+}
+
+.BookItem {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.BookItem img {
+  margin-right: 20px;
+  transition: transform 0.3s ease; 
+}
+
+.BookItem img:hover {
+  transform: scale(1.1);
+}
+
+
+.Grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+@media (max-width: 767px) {
+  .Grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+footer {
+  color: #000;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+.Navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.Navigation a {
+  text-decoration: none;
+  color: White;
+  margin: 0 0.5em;
+  transition: color 0.3s ease;
+}
+
+.Navigation .button {
+  padding: 0.5em 1em;
+  border: 1px solid #333;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.Navigation .button:hover {
+  background-color: #333;
+  color: #fff;
+}
