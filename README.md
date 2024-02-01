@@ -25,7 +25,7 @@ Kalvium Books is designed with responsiveness in mind, providing a consistent an
 
 Clone this repository to your local machine.
 
-  git clone https://github.com/your-username/your-repo.git
+  git clone [https://github.com/your-username/your-repo.git](https://github.com/mranja/CA---5)
   Navigate to the project directory.
 
 Navigate to the project directory.
